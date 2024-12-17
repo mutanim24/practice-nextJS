@@ -1,11 +1,11 @@
 
 const Projects = () => {
     return (
-        <div className="p-20">
-            <h2 className="text-4xl font-bold text-center mb-8">A Showcase of My Work</h2>
-            <div className="grid grid-cols-3 gap-5">
-                <div className="border-2">
-                    <img src="images/profile.jpg" alt="" />
+        <div className="p-10 sm:p-20">
+            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8">A Showcase of My Work</h2>
+            <div className="grid sm:grid-cols-3 gap-5">
+                <div className="border-2 p-3">
+                    <img src="images/project1.png" alt="" />
                     <div className="p-4">
                         <h3 className="text-2xl font-bold">Project Title</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, molestiae laudantium saepe excepturi veritatis enim.</p>
@@ -16,8 +16,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border-2">
-                    <img src="images/profile.jpg" alt="" />
+                <div className="border-2 p-3">
+                    <img src="images/project2.png" alt="" />
                     <div className="p-4">
                         <h3 className="text-2xl font-bold">Project Title</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, molestiae laudantium saepe excepturi veritatis enim.</p>
@@ -28,8 +28,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border-2">
-                    <img src="images/profile.jpg" alt="" />
+                <div className="border-2 p-3">
+                    <img src="images/project3.png" alt="" />
                     <div className="p-4">
                         <h3 className="text-2xl font-bold">Project Title</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, molestiae laudantium saepe excepturi veritatis enim.</p>

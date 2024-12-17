@@ -11,7 +11,7 @@ import {
 
 const Education = () => {
     return (
-        <div className="p-20">
+        <div className="p-10 sm:p-20">
             <h2 className='text-4xl font-bold text-center mb-8'>Educational Qualification</h2>
             <div>
                 <div className="overflow-x-auto">

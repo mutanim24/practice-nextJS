@@ -19,21 +19,21 @@ import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
     return (
         <div>
-            <h2 className="text-4xl font-bold text-white text-center mt-7">Get In Touch</h2>
-            <div className="grid grid-cols-2 gap-10 p-20">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mt-7">Get In Touch</h2>
+            <div className="grid sm:grid-cols-2 gap-10 p-10 sm:p-20">
                 <div className="flex flex-col gap-4">
                     <div className="flex gap-2">
                         <PhoneOutgoingIcon></PhoneOutgoingIcon>
-                        <h2 className="text-2xl font-bold">+880 1747474890</h2>
+                        <h2 className="sm:text-2xl font-bold">+880 1747474890</h2>
                     </div>
                     <div className="flex gap-2">
                         <BiEnvelope className="text-3xl"></BiEnvelope>
-                        <h2 className="text-2xl font-bold">muhimuddintanim@gmail.com</h2>
+                        <h2 className="sm:text-2xl font-bold">muhimuddintanim@gmail.com</h2>
                     </div>
                     <div className="flex gap-2">
                     <FaLocationDot className="text-3xl" />
 
-                        <h2 className="text-2xl font-bold">Sylhet, Banggladesh</h2>
+                        <h2 className="sm:text-2xl font-bold">Sylhet, Banggladesh</h2>
                     </div>
                 </div>
 
