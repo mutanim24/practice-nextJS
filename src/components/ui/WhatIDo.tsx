@@ -4,7 +4,7 @@ import { FaLaptopCode } from "react-icons/fa";
 const WhatIDo = () => {
     return (
         <div>
-            <div className="px-20">
+            <div className="p-20">
                 <h1 className="text-4xl font-bold text-center my-8">What I Do</h1>
                 <div className="grid grid-cols-3 gap-4">
                     <div className="border-2 p-6 rounded">

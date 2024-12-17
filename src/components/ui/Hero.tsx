@@ -1,4 +1,5 @@
 
+import { BsGithub, BsInstagram } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 // import image from "../../../public/images/profile.jpg"
 
@@ -13,8 +14,8 @@ const Hero = () => {
                     {/* <Button></Button> */}
                     <div className="flex gap-3" >
                         <FaFacebook className="text-4xl" > </FaFacebook>
-                        < FaFacebook className="text-4xl" > </FaFacebook>
-                        < FaFacebook className="text-4xl" > </FaFacebook>
+                        <BsInstagram className="text-4xl"/>
+                        <BsGithub className="text-4xl"/>
                     </div>
                     {/* import { Button } from "@shadcn/ui"; */}
                     {/* <Button>
